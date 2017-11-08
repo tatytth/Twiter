@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: courier;
+	background-image: url(imagenfondo.jpg);
+}
+
+.header{
+	background: #6AD2F3;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+.contenedor{
+	width: 850px;
+	margin: 0px auto; /*en el eje y pegado de la parte de arriba y en el eje x cenrado de manera automatica*/
+}
+
+.cuadro1{
+	width: 380px;
+	height: 250px;
+	background: white;
+	float: left;
+	padding: 10px;
+}
+.cuadro2{
+	width: 400px;
+	height: 250px;
+	background: white;
+	float: left;
+	margin-left: 50px; 
+
+
+}
+.cuadro3{
+
+	width: 850px;
+	height: 200px;
+	/*background: green;*/
+	float: left;
+	margin-top: 50px;
+
+}
+
+
+/*CUADRO 2*/
+
+#mensaje{
+	width: 350px;
+	height: 100px;
+	margin-left: 25px; 
+	margin-top: 25px;
+	border: transparent;
+	border-bottom: #95AC98 solid 2px;
+}
+.boton{
+	width: 100px;
+	color: white;
+	background: #6CD2F5;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 25px;
+	margin-top: 5px;
+	text-align: center;
+	border: 0px;
+}
+
+#numero{
+margin-left: 200px;
+/*background-color: blue;*/
+
+}
+
+.titulo{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.final{
+	color: #668A9B;
+	font-weight: bold;
+}
+
+.mensaje{
+	margin-bottom: 20px; 
+	background: white;
+	padding: 10px;
+}

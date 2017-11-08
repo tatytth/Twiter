@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body onload = "inicio()">
+<div class="header">Twitter</div>
+
+<div class="contenedor">
+	<div class="cuadro1">
+		<p>
+			<span class="titulo">Reto de Código</span>
+			<br>
+			<span class="detalle">Hola, <br> soy front-end developer Jr.</span>
+			<hr>
+			<span class="final">CODIGO</span>
+		</p>
+	</div>
+	<div class="cuadro2">
+		<textarea name="mensaje" id="mensaje" placeholder="¿Qué estas pensando?" onkeyup="contar(event)"></textarea> <!-- texto multilinea colo input text es una linea-->
+		<br>
+		<input type="button" value="TWEET" class="boton" disabled id="boton" onclick="adicionar()">
+		<span id="numero"></span>
+	</div>
+	<div class="cuadro3" id="cuadro3">
+		<!--Hola mundo-->
+
+
+		<div id="marca"></div>
+	</div>
+</div>
+	
+</body>
+</html>
