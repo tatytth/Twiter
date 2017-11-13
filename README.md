@@ -20,20 +20,20 @@
 ## Versiones:
 
 * **Versión 0.0.1**
--Diseñar un formulario que permita ingresar un texto y un botón para "twittear".
--Agregar un evento de click al botón o de submit al formulario.
--En el evento, obtener el texto.
--Agregar el texto al HTML. 
+	-Diseñar un formulario que permita ingresar un texto y un botón para "twittear".
+	-Agregar un evento de click al botón o de submit al formulario.
+	-En el evento, obtener el texto.
+	-Agregar el texto al HTML. 
 
 * **Versión 0.0.2**
--No ingresar texto vacío (deshabilitar el botón de "twittear").
--Contar la cantidad de caracteres de forma regresiva.
+	-No ingresar texto vacío (deshabilitar el botón de "twittear").
+	-Contar la cantidad de caracteres de forma regresiva.
   
 * **Versión 0.0.3**
--Si pasa los 140 caracteres, deshabilitar el botón.
--Si pasa los 120 caracteres, mostrar el contador con OTRO color.
--Si pasa los 130 caracteres, mostrar el contador con OTRO color.
--Si pasa los 140 caracteres, mostrar el contador en negativo.
+	-Si pasa los 140 caracteres, deshabilitar el botón.
+	-Si pasa los 120 caracteres, mostrar el contador con OTRO color.
+	-Si pasa los 130 caracteres, mostrar el contador con OTRO color.
+	-Si pasa los 140 caracteres, mostrar el contador en negativo.
 
 * **Versión 0.0.4**(Extra)
--Agregar la hora en que se publicó el tweet. En el formato de 24 horas: hh:mm.
+	-Agregar la hora en que se publicó el tweet. En el formato de 24 horas: hh:mm.
